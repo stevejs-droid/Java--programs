@@ -46,4 +46,16 @@ class BankAccount {
         System.out.println("\nUpdated Account Details");
         obj.displayDetails();
     }
+}        double bal = sc.nextDouble();
+
+        BankAccount obj = new BankAccount(acc, name, bal);
+
+        System.out.print("Enter Deposit Amount: ");
+        double amount = sc.nextDouble();
+
+        obj.deposit(amount);
+
+        System.out.println("\nUpdated Account Details");
+        obj.displayDetails();
+    }
 }
